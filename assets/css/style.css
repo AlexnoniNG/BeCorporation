@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   height:90px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.navbar{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-lists ul{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.nav-lists ul li{
+    list-style: none;
+    margin-left: 50px ;
+}
+
+.nav-lists ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-lists ul li a:hover{
+  color: #55C593;
+}
+
+.nav-lists a.active {
+    color: #55C593;
+    text-decoration-line: underline;
+    text-underline-offset: 30px ;
+}
+
+.nav-lists{
+    display: flex;
+}
+
+.buy-now{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    margin-right: 30px;
+    background-color: rgba(236, 235, 235, 0.619);
+    border: none;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+.buy-now:hover{
+    background-color: #55C593;
+    color: aliceblue;
+}
+
+/* Hero Section Starts */
+.hero-container{
+    background-image: url('/assets/img/corporation3-slider-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.hero-text{
+    padding-top: 220px;
+    margin-left: 150px;
+}
+
+.hero-text h1{
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.hero-btn{
+    margin-top: 50px;
+    padding: 15px 25px 15px 25px;
+    font-size: 23px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.hero-btn:hover{
+    background-color: #55C593;
+    color: #ffffff;
+}
+
+.after-hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banking-solutions-container{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.bank-head h1{
+  font-size: 50px;
+}
+
+.bank-head p{
+    margin-top: 10px;
+}
+.h1-bank-color{
+    color: #55C593;
+}
+
+.read-more{
+    padding-top: 35px;
+    color: lightslategray;
+    font-weight: bold;
+}
+
+.banking-solutions-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.border-box{
+    margin-right: 100px;
+    border: 2px solid;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 200px;
+    padding-right: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.box-content{
+     text-align: center;
+}
+
+.box-content h4{
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.box-content h1{
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.box-content h5{
+    margin-top: 20px;
+    color: #55C593;
+    background-color: #B6F9D2;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.how-it-wokrs-container{
+    margin-top: 150px;
+    background-color: #251117;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.section-bg-icon{
+    position: absolute;
+    left: 10%;
+}
+
+.how-it-works-head h1{
+    padding-top: 150px;
+    margin-left: 80px;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.how-it-works-content-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.how-it-works-content p{
+    margin-top: 30px;
+}
+
+.business-container{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.business-img{
+    margin-left: 80px;
+}
+
+.business-head{
+    margin-top: 80px;
+}
+
+.business-head h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.business-head p{
+    margin-top: 20px;
+}
+
+.business-icons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bi-house-fill{
+    color: #55C593;
+    
+}
+
+
+.bi-circle-fill{
+    color: rgb(215, 225, 225);
+}
+
+.line-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.line{
+    border: 1px solid rgba(211, 211, 211, 0.333);
+}
+
+.investors-container{
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.investors-box{
+    margin-left: 50px;
+    border: 2px solid;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 180px;
+    padding-right: 80px;
+    border-radius: 10px;
+    border-color: #55C593;
+    margin-bottom: 35px;
+}
+
+.investors-head h1{
+    font-size: 50px;
+}
+
+.investors-head p{
+    margin-top: 40px;
+}
+
+.italic-section{
+    font-size: 19px;
+}
+
+.investors-btn{
+    background-color: #55C593;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.investors-content h5{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.investors-content h1{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.investors-content p{
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.business-model-container{
+    background-color: #F3F5F6;
+    padding-bottom: 120px;
+}
+
+.business-model{
+    padding-top: 120px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.business-model-head{
+    margin-left: 50px;
+}
+
+.business-model-head h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.business-model p{
+    margin-top: 20px;
+}
+.bi-check2{
+    margin-right: 20px;
+}
+
+.business-model-bottom-img{
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.read-more-about{
+    padding: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #55C593;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn-holder{
+    margin-top: 40px;
+    position: absolute;
+    left: 40%;
+}
+
+
+.footer-container{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.footer-bottom-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-address h5{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.footer-address p{
+    margin-top: 60px;
+}
+
+.footer-strategy{
+    margin-left: 120px;
+}
+
+.footer-strategy h1{
+    font-size: 45px;
+}
+
+.footer-strategy p{
+    margin-top: 25px;
+    font-weight: bold;
+    color: lightgray;
+
+}
+
+.footer-line-section{
+    margin-top: 80px;
+}
+
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.socials{
+    text-align: center;
+    margin-top: 15px;
+    color: lightslategray;
+    margin-bottom: 20px;
+}
